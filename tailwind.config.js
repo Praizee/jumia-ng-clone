@@ -16,3 +16,6 @@ module.exports = {
   },
   plugins: [],
 };
+
+/* Made with 💙 by Stephen Adeniji
+https://stephen-adeniji.vercel.app/ */
