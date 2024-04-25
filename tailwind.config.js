@@ -13,6 +13,7 @@ module.exports = {
   theme: {
     // colors: {
     //   jumiaOrange: "#E07E22",
+    // #f68b1e
     // },
     extend: {
       backgroundImage: {

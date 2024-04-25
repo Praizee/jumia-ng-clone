@@ -5,8 +5,8 @@ import JumiaPay from "@/assets/svg/JumiaPay";
 
 const Header = () => {
   return (
-    <section>
-      <div className="bg-[#7999A8] ">
+    <section className="hidden md:block">
+      <div className="bg-[#7999A8]">
         <div className=" max-w-[1200px] mx-auto">
           <Image
             src="https://ng.jumia.is/cms/0-1-weekly-cps/0-2024/Week_17/Pay-Day-Super-Saver/TOP-STRIP_PAY-DAY-ezgif.com-optimize.gif"

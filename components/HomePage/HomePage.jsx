@@ -6,7 +6,7 @@ const HomePage = () => {
     <section className="bg-[#7999A8]">
       <Hero />
 
-      <section className="min-h-screen">
+      <section className="min-h-screen  max-w-[1200px] mx-auto">
         <div>Home Page</div>
       </section>
     </section>
