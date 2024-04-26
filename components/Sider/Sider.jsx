@@ -112,6 +112,7 @@ export function Sider() {
 
           {/* content/links */}
           <div className="overflow-y-scroll flex flex-col w-full">
+            {/* h-screen */}
             <div className="py-3 border-t border-gray-400">
               <div className="flex items-center justify-between px-4">
                 <p className="uppercase text-sm text-gray-700 cursor-pointer">
