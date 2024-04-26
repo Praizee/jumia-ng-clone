@@ -10,15 +10,20 @@ import { HiOutlineShoppingCart } from "react-icons/hi2";
 import { MdHelpOutline } from "react-icons/md";
 import { FaRegUser } from "react-icons/fa6";
 import { RxHamburgerMenu } from "react-icons/rx";
+import { Sider } from "../Sider/Sider";
 
 const Navbar = () => {
   return (
-    <div className="sticky syace-y-1 pb-3 md:pb-0">
+    <div className="sticky space-y-1 pb-3 md:pb-0">
       <div className="flex justify-between px-4 md:px-0 items-center py-4 max-w-[1200px] mx-auto">
-        <span className="flex gap-3 md:gap-0">
-          <button type="button">
+        <div className="flex gap-3 md:gap-0">
+          {/* Sider */}
+          <Sider />
+
+          {/* <button type="button">
             <RxHamburgerMenu className="w-6 h-6 md:hidden block" />
-          </button>
+          </button> */}
+
           <Image
             className="w-[100px] lg:w-[150px] object-contain"
             src="https://www.jumia.com.ng/assets_he/logo_jumia.svg"
@@ -26,7 +31,7 @@ const Navbar = () => {
             height={200}
             alt="Jumia logo"
           />
-        </span>
+        </div>
         <div className="flex md:flex-1 gap-1">
           <form
             onSubmit={(e) => e.preventDefault()}
@@ -140,20 +145,20 @@ const Navbar = () => {
         className="w-full px-4 flex md:hidden gap-2"
       >
         <div className="relative w-full">
-          <IoMdSearch className="absolute top-0 bottom-0 w-7 h-7 my-auto text-gray-500 left-3" />
+          <IoMdSearch className="absolute top-0 bottom-0 w-7 h-7 my-auto text-gray-800 left-3" />
           <input
             type="text"
             placeholder="Search products, brands and categories"
             required
-            className="w-full min-w-8xl py-2 pl-12 pr-4 text-gray-500 border rounded-[5px] outline-none bg-transparent focus:bg-white focus:border-transparent focus:ring-[#ED9720]"
+            className="w-full min-w-8xl py-1 pl-12 pr-4 text-gray-500 border rounded-full outline-none bg-transparent focus:bg-white focus:border-transparent focus:ring-[#ED9720]"
           />
         </div>
-        <button
+        {/* <button
           type="submit"
           className="uppercase bg-[#ED9720] text-white rounded-[5px] px-4 py-2 font-semibold shadow-lg"
         >
           Search
-        </button>
+        </button> */}
       </form>
     </div>
   );
