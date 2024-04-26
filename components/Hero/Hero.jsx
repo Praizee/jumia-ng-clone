@@ -11,7 +11,7 @@ const Hero = () => {
         <NavMenu />
         <SlideShow />
 
-        <div className="flex flex-col gap-4">
+        <div className="hidden lg:flex flex-col gap-4">
           <div className="bg-white flex-1 flex flex-col justify-between gap-2 rounded-md p-[16px]">
             <div className="flex gap-2 items-center ">
               <Image
