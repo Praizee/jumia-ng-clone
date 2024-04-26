@@ -1,12 +1,10 @@
-import { Inter } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/Header/Header";
 import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
 import Newsletter from "@/components/Newsletter/Newsletter";
-
-const inter = Inter({ subsets: ["latin"] });
+import CallToOrder from "@/components/CallToOrder/CallToOrder";
 
 //👇 Configure  local font object
 const SegoeUI = localFont({ src: "../fonts/Segoe UI.ttf" });
@@ -28,6 +26,7 @@ export default function RootLayout({ children }) {
       <body className={`${SegoeUI.className} scroll-smooth`}>
         <Header />
         <Navbar />
+        <CallToOrder />
         {children}
         <Newsletter />
         <Footer />
