@@ -14,6 +14,7 @@ const Header = () => {
             width={1100}
             height={400}
             className="w-full"
+            unoptimized
           />
         </div>
       </div>
