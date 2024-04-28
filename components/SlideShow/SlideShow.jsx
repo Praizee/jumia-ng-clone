@@ -6,23 +6,55 @@ import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import "swiper/css";
 import Image from "next/image";
+import Link from "next/link";
 
 const slideShowImages = [
-  "https://ng.jumia.is/cms/0-1-weekly-cps/0-2024/Week_17/Pay-Day-Super-Saver/Desktop_Homepage_Slider__712x384-payday-deals.png",
-  "https://ng.jumia.is/cms/0-1-initiatives/flashsale/2024/Desktop_Homepage_Slider__712x384.jpg",
-  "https://ng.jumia.is/cms/0-CMS-MIGRATION-2020/adidas/2024/April/Adi_712x384_hp.png",
-  "https://ng.jumia.is/cms/0-1-weekly-cps/0-2024/0-1Advertising/April/zaron/712X384.jpg",
-  "https://ng.jumia.is/cms/0-1-initiatives/dollar-down-prices-down/homepage-slider.jpg",
-  "https://ng.jumia.is/cms/0-1-weekly-cps/0-2024/Week_17/appliances/slider/Artboard.png",
-  "https://ng.jumia.is/cms/0-1-initiatives/jumia-global/2024/April/Artboard_1_slider.png",
-  "https://ng.jumia.is/cms/0-1-initiatives/jumia-pay/2024/april-24/712x384.jpg",
+  {
+    image:
+      "https://ng.jumia.is/cms/0-1-weekly-cps/0-2024/Week_17/Pay-Day-Super-Saver/Desktop_Homepage_Slider__712x384-payday-deals.png",
+    link: "",
+  },
+  {
+    image:
+      "https://ng.jumia.is/cms/0-1-initiatives/flashsale/2024/Desktop_Homepage_Slider__712x384.jpg",
+    link: "",
+  },
+  {
+    image:
+      "https://ng.jumia.is/cms/0-CMS-MIGRATION-2020/adidas/2024/April/Adi_712x384_hp.png",
+    link: "",
+  },
+  {
+    image:
+      "https://ng.jumia.is/cms/0-1-weekly-cps/0-2024/0-1Advertising/April/zaron/712X384.jpg",
+    link: "",
+  },
+  {
+    image:
+      "https://ng.jumia.is/cms/0-1-initiatives/dollar-down-prices-down/homepage-slider.jpg",
+    link: "",
+  },
+  {
+    image:
+      "https://ng.jumia.is/cms/0-1-weekly-cps/0-2024/Week_17/appliances/slider/Artboard.png",
+    link: "",
+  },
+  {
+    image:
+      "https://ng.jumia.is/cms/0-1-initiatives/jumia-global/2024/April/Artboard_1_slider.png",
+    link: "",
+  },
+  {
+    image:
+      "https://ng.jumia.is/cms/0-1-initiatives/jumia-pay/2024/april-24/712x384.jpg",
+    link: "",
+  },
 ];
 
 export default function SlideShow() {
   return (
     <>
-      {/* fix 'z-index' (maybe) issue with dropdown and drawer rendering/displaying below this slide */}
-      <div className="overflow-hidden px-4 md:px-0 max-w-screen-xl md:max-w-[712px]">
+      <div className="overflow-hidden px-4 md:px-0 max-w-screen-xl md:max-w-[712px] z-0">
         <div className="w-full">
           <Swiper
             modules={[Navigation, Pagination, Autoplay]}
@@ -38,15 +70,17 @@ export default function SlideShow() {
               clickable: true,
             }}
           >
-            {slideShowImages.map((image, index) => (
-              <SwiperSlide key={image}>
-                <Image
-                  className="w-[712px] cursor-pointer rounded-md md:h-[384px]"
-                  src={image}
-                  width={712}
-                  height={384}
-                  alt="slideshow-item"
-                />
+            {slideShowImages.map((item, index) => (
+              <SwiperSlide key={index}>
+                <Link href={item.link}>
+                  <Image
+                    className="w-[712px] cursor-pointer rounded-md md:h-[384px]"
+                    src={item.image}
+                    width={712}
+                    height={384}
+                    alt="slideshow-item"
+                  />
+                </Link>
               </SwiperSlide>
             ))}
           </Swiper>
