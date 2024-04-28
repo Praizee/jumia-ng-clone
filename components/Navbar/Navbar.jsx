@@ -10,6 +10,9 @@ import { HiOutlineShoppingCart } from "react-icons/hi2";
 import { MdHelpOutline } from "react-icons/md";
 import { FaRegUser } from "react-icons/fa6";
 import { RxHamburgerMenu } from "react-icons/rx";
+import { BsChatLeftDots } from "react-icons/bs";
+import { BsBox2 } from "react-icons/bs";
+import { FaRegHeart } from "react-icons/fa";
 import { Sider } from "../Sider/Sider";
 
 const Navbar = () => {
@@ -80,16 +83,22 @@ const Navbar = () => {
             </Dropdown.Item>
             <Dropdown.Divider />
             <Dropdown.Item className="flex gap-4 hover:font-semibold">
-              <FaRegUser className="w-5 h-5" />{" "}
-              <p className="text-[14px]">My Account</p>
+              <FaRegUser className="w-5 h-5" />
+              <Link href="" className="text-[14px]">
+                My Account
+              </Link>
             </Dropdown.Item>
             <Dropdown.Item className="flex gap-4 hover:font-semibold">
-              <FaRegUser className="w-5 h-5" />{" "}
-              <p className="text-[14px]">My Account</p>
+              <BsBox2 className="w-5 h-5" />
+              <Link href="" className="text-[14px]">
+                Orders
+              </Link>
             </Dropdown.Item>
             <Dropdown.Item className="flex gap-4 hover:font-semibold">
-              <FaRegUser className="w-5 h-5" />{" "}
-              <p className="text-[14px]">My Account</p>
+              <FaRegHeart className="w-5 h-5" />
+              <Link href="" className="text-[14px]">
+                Saved Items
+              </Link>
             </Dropdown.Item>
           </Dropdown>
 
@@ -110,21 +119,43 @@ const Navbar = () => {
             className=""
           >
             <Dropdown.Item className="hover:font-semibold">
-              <p className="text-[14px]">My Account</p>
+              <Link href="" className="text-[14px]">
+                Place an order
+              </Link>
             </Dropdown.Item>
             <Dropdown.Item className="hover:font-semibold">
-              <p className="text-[14px]">My Account</p>
+              <Link href="" className="text-[14px]">
+                Payment options
+              </Link>
             </Dropdown.Item>
             <Dropdown.Item className="hover:font-semibold">
-              <p className="text-[14px]">My Account</p>
+              <Link href="" className="text-[14px]">
+                Track an order
+              </Link>
+            </Dropdown.Item>
+            <Dropdown.Item className="hover:font-semibold">
+              <Link href="" className="text-[14px]">
+                Cancel an order
+              </Link>
+            </Dropdown.Item>
+            <Dropdown.Item className="hover:font-semibold">
+              <Link href="" className="text-[14px]">
+                Returns & Refunds
+              </Link>
+            </Dropdown.Item>
+            <Dropdown.Item className="hover:font-semibold">
+              <Link href="" className="text-[14px]">
+                Help Center
+              </Link>
             </Dropdown.Item>
             <Dropdown.Divider />
             <Dropdown.Item>
               <button
                 type="submit"
-                className="uppercase bg-[#ED9720] w-full text-white rounded-[5px] px-4 py-2 font-semibold shadow-lg"
+                className="uppercase flex gap-2 items-center bg-[#ED9720] w-full text-white rounded-[5px] px-4 py-2 font-semibold shadow-lg"
               >
-                Sign In
+                <BsChatLeftDots className="w-5 h-5 my-auto" />
+                Live Chat
               </button>
             </Dropdown.Item>
           </Dropdown>
