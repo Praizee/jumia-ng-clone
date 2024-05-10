@@ -56,7 +56,9 @@ const Navbar = () => {
               Search
             </button>
           </form>
+
           <Dropdown
+            // inline={true}
             color="light"
             label={
               <div className="flex gap-2 text-base items-center">
@@ -113,7 +115,7 @@ const Navbar = () => {
             theme={{
               floating: {
                 target:
-                  "border-none max-w-7 sm:max-w-32 ml-2 sm:ml-0 hover:bg-white font-semibold flex items-center justify-center duration-0 hover:text-[#ED9720] focus:text-current focus:ring-0",
+                  "border-none max-w-7 sm:max-w-32 ml-2 sm:ml-0 hover:bg-white font-semibold hidden md:flex items-center justify-center duration-0 hover:text-[#ED9720] focus:text-current focus:ring-0",
               },
             }}
             className=""

@@ -5,9 +5,10 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section className="h-[150vh]  md:bg-[url(https://ng.jumia.is/cms/0-1-weekly-cps/0-2024/Week_17/Pay-Day-Super-Saver/-BG-TAKEOVER_PAYDAY.jpg)] bg-cover bg-no-repeat">
+    <section className="">
+      {/* h-[150vh]  md:bg-[url(https://ng.jumia.is/cms/0-1-weekly-cps/0-2024/Week_17/Pay-Day-Super-Saver/-BG-TAKEOVER_PAYDAY.jpg)] bg-cover bg-no-repeat */}
       {/* <div className="max-w-[1200px] mx-auto grid gap-4 grid-cols-1 md:grid-cols-[15%_70%_15%] py-4"> */}
-      <div className="max-w-[1200px] mx-auto flex gap-4 py-4">
+      <div className="max-w-[1200px] mx-auto w-full justify-between flex gap-4">
         <NavMenu />
         <SlideShow />
 
