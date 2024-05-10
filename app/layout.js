@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
 import Newsletter from "@/components/Newsletter/Newsletter";
 import CallToOrder from "@/components/CallToOrder/CallToOrder";
+import ScrollButton from "@/components/ScrollButton/ScrollButton";
 
 //👇 Configure  local font object
 const SegoeUI = localFont({ src: "../fonts/Segoe UI.ttf" });
@@ -36,6 +37,7 @@ export default function RootLayout({ children }) {
         <CallToOrder />
         {children}
         <Newsletter />
+        <ScrollButton />
         <Footer />
       </body>
     </html>
