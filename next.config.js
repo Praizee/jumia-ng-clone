@@ -29,6 +29,12 @@ const nextConfig = {
         port: "",
         pathname: "/cms/**",
       },
+      {
+        protocol: "https",
+        hostname: "ng.jumia.is",
+        port: "",
+        pathname: "/unsafe/**",
+      },
     ],
   },
 };
