@@ -165,11 +165,8 @@ const FlashSales = () => {
       </div>
       <div className="flex gap-x-2 overflow-x-scroll p-2">
         {items.map((category, index) => (
-          <div className="relative">
-            <div
-              key={index}
-              className="min-w-[180px] bg-white pb-2 rounded-b-md hover:scale-[102%] hover:shadow-lg"
-            >
+          <div className="relative" key={index}>
+            <div className="min-w-[180px] bg-white pb-2 rounded-b-md hover:scale-[102%] hover:shadow-lg">
               <Link href={category.link} className="flex flex-col gap-2">
                 <Image
                   src={category.image}
