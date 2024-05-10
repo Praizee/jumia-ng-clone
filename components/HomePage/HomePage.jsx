@@ -3,6 +3,8 @@ import Hero from "../Hero/Hero";
 import Image from "next/image";
 import FeaturedCategories from "../FeaturedCategories/FeaturedCategories";
 import TopSellingItems from "../TopSellingItems/TopSellingItems";
+import FlashSales from "../FlashSales/FlashSales";
+import MagicDeals from "../MagicDeals/MagicDeals";
 
 const HomePage = () => {
   return (
@@ -11,10 +13,12 @@ const HomePage = () => {
 
       <section className="min-h-screen md:bg-[url(https://ng.jumia.is/cms/0-1-weekly-cps/0-2024/Week_17/Pay-Day-Super-Saver/-BG-TAKEOVER_PAYDAY.jpg)] bg-contain bg-no-repeat">
         <div className="max-w-[1200px] mx-auto space-y-4 p-4 lg:px-0">
+          {/* text-[#ED9720] */}
           <Hero />
           <FeaturedCategories />
           <TopSellingItems />
-          <TopSellingItems />
+          <FlashSales />
+          <MagicDeals />
           <TopSellingItems />
           <div>Home Page</div>
         </div>

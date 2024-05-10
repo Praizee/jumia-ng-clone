@@ -14,6 +14,7 @@ module.exports = {
     // colors: {
     //   jumiaOrange: "#E07E22",
     // #f68b1e
+    // text-[#ED9720]
     // },
     extend: {
       backgroundImage: {
