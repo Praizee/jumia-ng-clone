@@ -18,7 +18,7 @@ import { Sider } from "../Sider/Sider";
 const Navbar = () => {
   return (
     <div className="sticky z-50 top-0 bg-white space-y-1 pb-3 md:pb-0">
-      <div className="flex justify-between px-4 md:px-0 items-center py-4 max-w-[1200px] mx-auto">
+      <div className="flex justify-between px-4 xl:px-0 items-center py-4 max-w-[1200px] mx-auto">
         <div className="flex gap-3 md:gap-0">
           {/* Sider */}
           <Sider />

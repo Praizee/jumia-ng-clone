@@ -18,7 +18,7 @@ const Header = () => {
           />
         </div>
       </div>
-      <div className="p-1.5 w-full bg-[#F1F1F2]">
+      <div className="p-1.5 w-full bg-[#F1F1F2] px-4 xl:px-0">
         <div className=" max-w-[1200px] mx-auto flex gap-12">
           <span className="flex gap-1 items-center">
             <Image
