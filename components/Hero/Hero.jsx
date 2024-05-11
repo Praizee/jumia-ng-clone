@@ -2,6 +2,7 @@ import React from "react";
 import NavMenu from "../NavMenu";
 import SlideShow from "../SlideShow/SlideShow";
 import Image from "next/image";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -14,7 +15,7 @@ const Hero = () => {
 
         <div className="hidden xl:flex flex-col gap-4">
           <div className="bg-white flex-1 flex flex-col justify-between gap-2 rounded-md p-[16px]">
-            <div className="flex gap-2 items-center ">
+            <Link href="" className="flex gap-2 items-center ">
               <Image
                 className=""
                 src={
@@ -28,9 +29,9 @@ const Hero = () => {
                 <p className="font-semibold uppercase text-sm">call to order</p>
                 <p className="text-xs text-gray-600">0700-600-000</p>
               </span>
-            </div>
+            </Link>
 
-            <div className="flex gap-2 items-center ">
+            <Link href="" className="flex gap-2 items-center ">
               <Image
                 className=""
                 src={
@@ -43,9 +44,9 @@ const Hero = () => {
               <span className="flex flex-col">
                 <p className="font-semibold capitalize">sell on jumia</p>
               </span>
-            </div>
+            </Link>
 
-            <div className="flex gap-2 items-center ">
+            <Link href="" className="flex gap-2 items-center ">
               <Image
                 className=""
                 src={
@@ -58,19 +59,21 @@ const Hero = () => {
               <span className="flex flex-col">
                 <p className="font-semibold capitalize">best deals</p>
               </span>
-            </div>
+            </Link>
           </div>
 
           {/* shop and earn */}
-          <Image
-            className="object-contain rounded-md flex-1"
-            src={
-              "https://ng.jumia.is/cms/0-1-initiatives/jforce/2024/shop_earn.png"
-            }
-            alt="earn"
-            width={218}
-            height={184}
-          />
+          <Link href="">
+            <Image
+              className="object-contain rounded-md flex-1"
+              src={
+                "https://ng.jumia.is/cms/0-1-initiatives/jforce/2024/shop_earn.png"
+              }
+              alt="earn"
+              width={218}
+              height={184}
+            />
+          </Link>
         </div>
       </div>
     </section>

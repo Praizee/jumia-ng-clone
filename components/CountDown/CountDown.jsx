@@ -39,7 +39,7 @@ const Countdown = () => {
 
   return (
     <>
-      <span className="text-lg font-bold">{formatTime(remainingTime)}</span>
+      <span className="text-lg font-black">{formatTime(remainingTime)}</span>
     </>
   );
 };
