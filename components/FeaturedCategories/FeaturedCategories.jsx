@@ -79,7 +79,7 @@ const categories = [
 
 const FeaturedCategories = () => {
   return (
-    <section className="max-w-[1200px] mx-auto">
+    <section className="xl:max-w-[1200px] max-w-[950px] mx-auto">
       <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2 bg-white rounded-md p-2">
         {categories.map((category, index) => (
           <div

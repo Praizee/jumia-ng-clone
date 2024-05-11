@@ -2,7 +2,7 @@ import React from "react";
 
 const Newsletter = () => {
   return (
-    <div className="max-w-[1200px] mx-auto space-y-4 p-4 xl:px-0">
+    <div className="xl:max-w-[1200px] max-w-[950px] mx-auto space-y-4 p-4 lg:px-0">
       Newsletter
     </div>
   );

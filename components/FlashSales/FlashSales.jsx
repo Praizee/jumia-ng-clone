@@ -146,7 +146,7 @@ const items = [
 
 const FlashSales = () => {
   return (
-    <section className="max-w-[1200px] mx-auto bg-white rounded-md">
+    <section className="xl:max-w-[1200px] max-w-[950px] mx-auto bg-white rounded-md">
       <div className="flex gap-8 justify-between p-3 bg-[#E61601] text-white rounded-t-md">
         <span className="flex gap-2 items-center">
           {/* <PiLightningLight className="w-6 h-6 text-[#F68B1E]" /> */}
