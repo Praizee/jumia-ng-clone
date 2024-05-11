@@ -20,6 +20,7 @@ const HomePage = () => {
           <FlashSales />
           <MagicDeals />
           <TopSellingItems />
+
           <div>Home Page</div>
         </div>
       </section>

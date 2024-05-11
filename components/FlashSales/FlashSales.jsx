@@ -4,6 +4,7 @@ import Link from "next/link";
 import { BiChevronRight } from "react-icons/bi";
 import { PiLightningLight } from "react-icons/pi";
 import { IoPricetags } from "react-icons/io5";
+import Countdown from "../CountDown/CountDown";
 
 const items = [
   {
@@ -152,8 +153,9 @@ const FlashSales = () => {
           <IoPricetags className="w-6 h-6 text-[#F2BA14]" />
           <p className="text-lg font-semibold">Flash Sale</p>
         </span>
-        <p className="text-lg font-medium">
-          Time Left: <span className="font-bold">04h : 52m : 23s</span>
+        <p className="text-lg font-medium flex gap-2">
+          Time Left:
+          <Countdown />
         </p>
         <Link
           href=""
