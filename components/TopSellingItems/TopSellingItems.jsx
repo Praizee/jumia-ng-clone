@@ -157,7 +157,7 @@ const TopSellingItems = () => {
       <div className="flex gap-x-2 overflow-x-scroll p-2">
         {items.map((category, index) => (
           <div className="relative" key={index}>
-            <div className="min-w-[180px] bg-white pb-2 rounded-b-md hover:scale-[102%] hover:shadow-lg">
+            <div className="max-w-[200px] w-full bg-white pb-2 rounded-b-md hover:scale-[102%] hover:shadow-lg">
               <Link href={category.link} className="flex flex-col gap-2">
                 <Image
                   src={category.image}
@@ -167,7 +167,12 @@ const TopSellingItems = () => {
                   alt={category.name}
                 />
                 <span className="space-y-0.5 px-2">
-                  <p className="text-sm">{category.name}</p>
+                  <p
+                    title={category.name}
+                    className="text-sm overflow-hidden whitespace-nowrap overflow-ellipsis"
+                  >
+                    {category.name}
+                  </p>
                   <p className="text-base font-semibold">{category.price}</p>
                   <p className="text-[12.5px] text-gray-500 line-through">
                     {category.slashed}
