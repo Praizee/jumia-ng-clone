@@ -151,7 +151,7 @@ const TopSellingItems = () => {
           className="text-sm font-semibold uppercase text-jumia-primary flex gap-0.5 items-center"
         >
           See All
-          <BiChevronRight className="w-5 h-5" />
+          <BiChevronRight className="size-5" />
         </Link>
       </div>
       <div className="flex gap-x-2 overflow-x-scroll p-2">

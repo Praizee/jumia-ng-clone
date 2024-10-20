@@ -41,7 +41,7 @@ const Navbar = () => {
             className="w-full pl-16 md:flex hidden gap-2"
           >
             <div className="relative w-full">
-              <IoMdSearch className="absolute top-0 bottom-0 w-7 h-7 my-auto text-gray-500 left-3" />
+              <IoMdSearch className="absolute top-0 bottom-0 size-7 my-auto text-gray-500 left-3" />
               <input
                 type="text"
                 placeholder="Search products, brands and categories"
@@ -63,7 +63,7 @@ const Navbar = () => {
             label={
               <div className="flex gap-2 text-base items-center">
                 {" "}
-                <FaRegUser className="md:w-6 md:h-6 w-5 h-5" />
+                <FaRegUser className="md:size-6 size-5 size-5" />
                 <p className="hidden md:block">Account</p>
               </div>
             }
@@ -85,19 +85,19 @@ const Navbar = () => {
             </Dropdown.Item>
             <Dropdown.Divider />
             <Dropdown.Item className="flex gap-4 hover:font-semibold">
-              <FaRegUser className="w-5 h-5" />
+              <FaRegUser className="size-5" />
               <Link href="" className="text-[14px]">
                 My Account
               </Link>
             </Dropdown.Item>
             <Dropdown.Item className="flex gap-4 hover:font-semibold">
-              <BsBox2 className="w-5 h-5" />
+              <BsBox2 className="size-5" />
               <Link href="" className="text-[14px]">
                 Orders
               </Link>
             </Dropdown.Item>
             <Dropdown.Item className="flex gap-4 hover:font-semibold">
-              <FaRegHeart className="w-5 h-5" />
+              <FaRegHeart className="size-5" />
               <Link href="" className="text-[14px]">
                 Saved Items
               </Link>
@@ -108,7 +108,7 @@ const Navbar = () => {
             color="light"
             label={
               <div className="flex gap-2 text-base items-center">
-                <MdHelpOutline className="md:w-6 md:h-6 w-5 h-5" />
+                <MdHelpOutline className="md:size-6 size-5" />
                 <p className="hidden md:block">Help</p>
               </div>
             }
@@ -156,7 +156,7 @@ const Navbar = () => {
                 type="submit"
                 className="uppercase flex gap-2 items-center bg-jumia-primary w-full text-white rounded-[5px] px-4 py-2 font-semibold shadow-lg"
               >
-                <BsChatLeftDots className="w-5 h-5 my-auto" />
+                <BsChatLeftDots className="size-5 my-auto" />
                 Live Chat
               </button>
             </Dropdown.Item>
@@ -166,7 +166,7 @@ const Navbar = () => {
             href=""
             className="px-4 py-2 flex gap-2 font-semibold text-base hover:text-jumia-primary"
           >
-            <HiOutlineShoppingCart className="md:w-6 md:h-6 w-5 h-5" />
+            <HiOutlineShoppingCart className="md:size-6 size-5" />
             <p className="hidden md:block">Cart</p>
           </Link>
         </div>
@@ -178,7 +178,7 @@ const Navbar = () => {
         className="w-full px-4 flex md:hidden gap-2"
       >
         <div className="relative w-full">
-          <IoMdSearch className="absolute top-0 bottom-0 w-7 h-7 my-auto text-gray-800 left-3" />
+          <IoMdSearch className="absolute top-0 bottom-0 size-7 my-auto text-gray-800 left-3" />
           <input
             type="text"
             placeholder="Search products, brands and categories"

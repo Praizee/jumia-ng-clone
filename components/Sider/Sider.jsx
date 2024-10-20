@@ -94,7 +94,7 @@ export function Sider() {
               onClick={() => setIsOpen(false)}
               className="inline-flex items-center"
             >
-              <IoCloseSharp className="w-7 h-7" />
+              <IoCloseSharp className="size-7" />
             </button>
             {/* logo */}
             <span className="inline-flex items-center">
