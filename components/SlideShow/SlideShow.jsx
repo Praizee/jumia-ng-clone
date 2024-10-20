@@ -11,7 +11,7 @@ import "swiper/css";
 const slideShowImages = [
   {
     image:
-      "https://ng.jumia.is/cms/0-1-weekly-cps/0-2024/Week_17/Pay-Day-Super-Saver/Desktop_Homepage_Slider__712x384-payday-deals.png",
+      "https://ng.jumia.is/cms/0-0-black-friday/2024/Generic-banner/Teasing/Desktop-Homepage-Slider_-712x384.gif",
     link: "",
   },
   {
@@ -21,32 +21,27 @@ const slideShowImages = [
   },
   {
     image:
-      "https://ng.jumia.is/cms/0-CMS-MIGRATION-2020/adidas/2024/April/Adi_712x384_hp.png",
+      "https://ng.jumia.is/cms/0-CMS-MIGRATION-2020/oraimo/2024/712-384.jpg",
     link: "",
   },
   {
     image:
-      "https://ng.jumia.is/cms/0-1-weekly-cps/0-2024/0-1Advertising/April/zaron/712X384.jpg",
+      "https://ng.jumia.is/cms/0-1-weekly-cps/0-2024/Week_42/Everyday_Essentials/Appliance_upgrade/DesktopHomepageSlider712x384.jpg",
     link: "",
   },
   {
     image:
-      "https://ng.jumia.is/cms/0-1-initiatives/dollar-down-prices-down/homepage-slider.jpg",
+      "https://ng.jumia.is/cms/0-1-weekly-cps/0-2024/Week_42/Drinks_Delight/Drink_Delight_712X384.png",
     link: "",
   },
   {
     image:
-      "https://ng.jumia.is/cms/0-1-weekly-cps/0-2024/Week_17/appliances/slider/Artboard.png",
+      "https://ng.jumia.is/cms/0-1-initiatives/jumia-global/2024/August/shoes-bewlow-9999/712_X_384.png",
     link: "",
   },
   {
     image:
-      "https://ng.jumia.is/cms/0-1-initiatives/jumia-global/2024/April/Artboard_1_slider.png",
-    link: "",
-  },
-  {
-    image:
-      "https://ng.jumia.is/cms/0-1-initiatives/jumia-pay/2024/april-24/712x384.jpg",
+      "https://ng.jumia.is/cms/0-1-initiatives/jumia-pay/2024/mastercard-push/updated/update/712_x_384.jpg",
     link: "",
   },
 ];
