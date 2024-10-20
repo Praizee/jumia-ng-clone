@@ -148,7 +148,7 @@ const TopSellingItems = () => {
         <p className="text-lg font-semibold">Top selling items</p>
         <Link
           href=""
-          className="text-sm font-semibold uppercase text-[#ED9720] flex gap-0.5 items-center"
+          className="text-sm font-semibold uppercase text-jumia-primary flex gap-0.5 items-center"
         >
           See All
           <BiChevronRight className="w-5 h-5" />
@@ -180,7 +180,7 @@ const TopSellingItems = () => {
                 </span>
               </Link>
             </div>
-            <span className="absolute top-2 right-2 bg-[#FEF3E9] text-[#F68B1E] text-sm p-0.5 rounded-sm">
+            <span className="absolute top-2 right-2 bg-[#FEF3E9] text-jumia-primary text-sm p-0.5 rounded-sm">
               <p className="">-{category.discount}</p>
             </span>
           </div>

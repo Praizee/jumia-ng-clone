@@ -42,7 +42,7 @@ export default function NavMenu() {
       <ul className="hidden lg:flex flex-col gap-2 min-w-[206px] h-full py-2 justify-between rounded-md bg-white">
         {navItems.map(({ title, Icon, link }, index) => (
           <Link key={index} href={link}>
-            <li className="capitalize text-left px-2 hover:text-[#f68b1e] w-full flex space-x-1.5 items-center text-xs">
+            <li className="capitalize text-left px-2 hover:text-jumia-primary w-full flex space-x-1.5 items-center text-xs">
               {Icon && <Icon className="h-5 w-5" />}
               <p>{title}</p>
             </li>

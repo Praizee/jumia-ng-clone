@@ -11,11 +11,13 @@ module.exports = {
     flowbite.content(),
   ],
   theme: {
-    // colors: {
-    //   jumiaOrange: "#E07E22",
-    // #f68b1e
-    // text-[#ED9720]
-    // },
+    colors: {
+      jumia: {
+        primary: {
+          DEFAULT: "#F68B1E",
+        },
+      },
+    },
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

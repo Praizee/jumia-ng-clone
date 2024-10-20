@@ -164,13 +164,13 @@ const FlashSales = () => {
     <section className="xl:max-w-[1200px] max-w-[950px] mx-auto bg-white rounded-md">
       <div className="flex gap-8 justify-between p-3 bg-[#E61601] text-white rounded-t-md">
         <span className="lg:flex hidden gap-2 items-center">
-          {/* <PiLightningLight className="w-6 h-6 text-[#F68B1E]" /> */}
+          {/* <PiLightningLight className="w-6 h-6 text-jumia-primary" /> */}
           <IoPricetags className="w-6 h-6 text-[#F2BA14]" />
           <p className="text-lg font-semibold">Flash Sale</p>
         </span>
         <div className="flex flex-col gap-1 lg:hidden">
           <span className="flex gap-2 items-center">
-            {/* <PiLightningLight className="w-6 h-6 text-[#F68B1E]" /> */}
+            {/* <PiLightningLight className="w-6 h-6 text-jumia-primary" /> */}
             <IoPricetags className="w-6 h-6 text-[#F2BA14]" />
             <p className="text-[14px] md:text-lg font-semibold">Flash Sale</p>
           </span>
@@ -224,7 +224,7 @@ const FlashSales = () => {
                 </div>
               </Link>
             </div>
-            <span className="absolute top-2 right-2 bg-[#FEF3E9] text-[#F68B1E] text-sm p-0.5 rounded-sm">
+            <span className="absolute top-2 right-2 bg-[#FEF3E9] text-jumia-primary text-sm p-0.5 rounded-sm">
               <p className="">-{category.discount}</p>
             </span>
           </div>

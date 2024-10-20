@@ -34,7 +34,7 @@ const ScrollButton = () => {
       onClick={scrollToTop}
       className={`${
         isVisible ? "block" : "hidden"
-      } fixed bottom-6 right-6 bg-white p-2 rounded-full text-black shadow-md hover:bg-white/90 duration-150 border border-[#ED9720] focus:outline-none focus:bg-orange-200`}
+      } fixed bottom-6 right-6 bg-white p-2 rounded-full text-black shadow-md hover:bg-orange-100 duration-300 border border-jumia-primary outline-none focus:border-2`}
     >
       <BiChevronUp className="w-6 h-6" />
     </button>

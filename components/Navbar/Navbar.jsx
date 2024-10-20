@@ -46,12 +46,12 @@ const Navbar = () => {
                 type="text"
                 placeholder="Search products, brands and categories"
                 required
-                className="w-full min-w-8xl py-2 pl-12 pr-4 text-gray-500 border rounded-[5px] outline-none bg-transparent focus:bg-white focus:border-transparent focus:ring-[#ED9720]"
+                className="w-full min-w-8xl py-2 pl-12 pr-4 text-gray-500 border rounded-[5px] outline-none bg-transparent focus:bg-white focus:border-transparent focus:ring-jumia-primary"
               />
             </div>
             <button
               type="submit"
-              className="uppercase bg-[#ED9720] text-white rounded-[5px] px-4 py-2 font-semibold shadow-lg"
+              className="uppercase bg-jumia-primary text-white rounded-[5px] px-4 py-2 font-semibold shadow-lg"
             >
               Search
             </button>
@@ -70,7 +70,7 @@ const Navbar = () => {
             theme={{
               floating: {
                 target:
-                  "border-none max-w-7 sm:max-w-32 mr-2 sm:mr-0 hover:bg-white font-semibold flex items-center justify-center duration-0 hover:text-[#ED9720] focus:text-current focus:ring-0",
+                  "border-none max-w-7 sm:max-w-32 mr-2 sm:mr-0 hover:bg-white font-semibold flex items-center justify-center duration-0 hover:text-jumia-primary focus:text-current focus:ring-0",
               },
             }}
             className=""
@@ -78,7 +78,7 @@ const Navbar = () => {
             <Dropdown.Item>
               <button
                 type="submit"
-                className="uppercase bg-[#ED9720] w-full text-white rounded-[5px] px-4 py-2 font-semibold shadow-lg"
+                className="uppercase bg-jumia-primary w-full text-white rounded-[5px] px-4 py-2 font-semibold shadow-lg"
               >
                 Sign In
               </button>
@@ -115,7 +115,7 @@ const Navbar = () => {
             theme={{
               floating: {
                 target:
-                  "border-none max-w-7 sm:max-w-32 ml-2 sm:ml-0 hover:bg-white font-semibold hidden md:flex items-center justify-center duration-0 hover:text-[#ED9720] focus:text-current focus:ring-0",
+                  "border-none max-w-7 sm:max-w-32 ml-2 sm:ml-0 hover:bg-white font-semibold hidden md:flex items-center justify-center duration-0 hover:text-jumia-primary focus:text-current focus:ring-0",
               },
             }}
             className=""
@@ -154,7 +154,7 @@ const Navbar = () => {
             <Dropdown.Item>
               <button
                 type="submit"
-                className="uppercase flex gap-2 items-center bg-[#ED9720] w-full text-white rounded-[5px] px-4 py-2 font-semibold shadow-lg"
+                className="uppercase flex gap-2 items-center bg-jumia-primary w-full text-white rounded-[5px] px-4 py-2 font-semibold shadow-lg"
               >
                 <BsChatLeftDots className="w-5 h-5 my-auto" />
                 Live Chat
@@ -164,7 +164,7 @@ const Navbar = () => {
 
           <Link
             href=""
-            className="px-4 py-2 flex gap-2 font-semibold text-base hover:text-[#ED9720]"
+            className="px-4 py-2 flex gap-2 font-semibold text-base hover:text-jumia-primary"
           >
             <HiOutlineShoppingCart className="md:w-6 md:h-6 w-5 h-5" />
             <p className="hidden md:block">Cart</p>
@@ -183,12 +183,12 @@ const Navbar = () => {
             type="text"
             placeholder="Search products, brands and categories"
             required
-            className="w-full min-w-8xl py-1 pl-12 pr-4 text-gray-500 border rounded-full outline-none bg-transparent focus:bg-white focus:border-transparent focus:ring-[#ED9720]"
+            className="w-full min-w-8xl py-1 pl-12 pr-4 text-gray-500 border rounded-full outline-none bg-transparent focus:bg-white focus:border-transparent focus:ring-jumia-primary"
           />
         </div>
         {/* <button
           type="submit"
-          className="uppercase bg-[#ED9720] text-white rounded-[5px] px-4 py-2 font-semibold shadow-lg"
+          className="uppercase bg-jumia-primary text-white rounded-[5px] px-4 py-2 font-semibold shadow-lg"
         >
           Search
         </button> */}

@@ -21,7 +21,7 @@ import {
   PiTelevision,
   PiCookingPotLight,
   PiCar,
-    PiDotsThreeCircleThin,
+  PiDotsThreeCircleThin,
 } from "react-icons/pi";
 import { BsBox2 } from "react-icons/bs";
 import { BiSolidDiscount } from "react-icons/bi";
@@ -137,7 +137,7 @@ export function Sider() {
               <ul className="pt-1">
                 {myAccount.map(({ title, Icon, link }) => (
                   <Link key={title} href={link}>
-                    <li className="capitalize py-3 text-left px-4 hover:text-[#f68b1e] w-full flex space-x-3 items-center text-sm focus:bg-[#FEE2CC] active:bg-[#FEE2CC]">
+                    <li className="capitalize py-3 text-left px-4 hover:text-jumia-primary w-full flex space-x-3 items-center text-sm focus:bg-[#FEE2CC] active:bg-[#FEE2CC]">
                       <Icon className="h-5 w-5" />
                       <p>{title}</p>
                     </li>
@@ -155,13 +155,13 @@ export function Sider() {
                 <p className="uppercase text-sm text-gray-700">
                   our categories
                 </p>
-                <p className="capitalize text-sm text-[#f68b1e]">see all</p>
+                <p className="capitalize text-sm text-jumia-primary">see all</p>
               </Link>
 
               <ul className="pt-1">
                 {ourCategories.map(({ title, Icon, link }) => (
                   <Link key={title} href={link}>
-                    <li className="capitalize py-3 text-left px-4 hover:text-[#f68b1e] w-full flex space-x-3 items-center text-sm focus:bg-[#FEE2CC] active:bg-[#FEE2CC]">
+                    <li className="capitalize py-3 text-left px-4 hover:text-jumia-primary w-full flex space-x-3 items-center text-sm focus:bg-[#FEE2CC] active:bg-[#FEE2CC]">
                       {Icon && <Icon className="h-5 w-5" />}
                       <p className={Icon ? "" : "ml-8"}>{title}</p>
                     </li>
@@ -177,13 +177,13 @@ export function Sider() {
                 className="flex items-center justify-between px-4 py-3 focus:bg-[#FEE2CC] active:bg-[#FEE2CC]"
               >
                 <p className="uppercase text-sm text-gray-700">our services</p>
-                <p className="capitalize text-sm text-[#f68b1e]">see all</p>
+                <p className="capitalize text-sm text-jumia-primary">see all</p>
               </Link>
 
               <ul className="pt-1">
                 {ourServices.map(({ title, Icon, link }) => (
                   <Link key={title} href={link}>
-                    <li className="capitalize py-3 text-left px-4 hover:text-[#f68b1e] w-full flex space-x-3 items-center text-sm focus:bg-[#FEE2CC] active:bg-[#FEE2CC]">
+                    <li className="capitalize py-3 text-left px-4 hover:text-jumia-primary w-full flex space-x-3 items-center text-sm focus:bg-[#FEE2CC] active:bg-[#FEE2CC]">
                       <Icon className="h-5 w-5 text-gray-600" />
                       <p>{title}</p>
                     </li>
@@ -191,17 +191,17 @@ export function Sider() {
                 ))}
                 <span className="flex flex-col py-2">
                   <Link href="">
-                    <li className="capitalize text-left px-4 py-3 hover:text-[#f68b1e] w-full flex space-x-3 items-center text-sm focus:bg-[#FEE2CC] active:bg-[#FEE2CC]">
+                    <li className="capitalize text-left px-4 py-3 hover:text-jumia-primary w-full flex space-x-3 items-center text-sm focus:bg-[#FEE2CC] active:bg-[#FEE2CC]">
                       Sell on Jumia
                     </li>
                   </Link>
                   <Link href="">
-                    <li className="capitalize text-left px-4 py-3 hover:text-[#f68b1e] w-full flex space-x-3 items-center text-sm focus:bg-[#FEE2CC] active:bg-[#FEE2CC]">
+                    <li className="capitalize text-left px-4 py-3 hover:text-jumia-primary w-full flex space-x-3 items-center text-sm focus:bg-[#FEE2CC] active:bg-[#FEE2CC]">
                       Service Center
                     </li>
                   </Link>
                   <Link href="">
-                    <li className="capitalize text-left px-4 py-3 hover:text-[#f68b1e] w-full flex space-x-3 items-center text-sm focus:bg-[#FEE2CC] active:bg-[#FEE2CC]">
+                    <li className="capitalize text-left px-4 py-3 hover:text-jumia-primary w-full flex space-x-3 items-center text-sm focus:bg-[#FEE2CC] active:bg-[#FEE2CC]">
                       Contact Us
                     </li>
                   </Link>
