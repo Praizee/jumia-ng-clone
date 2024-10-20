@@ -79,6 +79,8 @@ export default function SlideShow() {
                     width={712}
                     height={384}
                     alt="slideshow-item"
+                    quality={90}
+                    priority
                   />
                 </Link>
               </SwiperSlide>
@@ -112,6 +114,8 @@ export default function SlideShow() {
                     width={712}
                     height={384}
                     alt="slideshow-item"
+                    quality={90}
+                    priority
                   />
                 </Link>
               </SwiperSlide>
