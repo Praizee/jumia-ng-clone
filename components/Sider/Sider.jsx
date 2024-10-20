@@ -21,6 +21,7 @@ import {
   PiTelevision,
   PiCookingPotLight,
   PiCar,
+    PiDotsThreeCircleThin,
 } from "react-icons/pi";
 import { BsBox2 } from "react-icons/bs";
 import { BiSolidDiscount } from "react-icons/bi";
@@ -35,18 +36,20 @@ import Image from "next/image";
 import Link from "next/link";
 
 const ourCategories = [
-  { title: "supermarket", Icon: LuApple, link: "" },
-  { title: "health & beauty", Icon: IoEyedropOutline, link: "" },
-  { title: "home & office", Icon: IoHomeOutline, link: "" },
   { title: "appliances", Icon: PiCookingPotLight, link: "" },
   { title: "phones & tablets", Icon: HiOutlineDevicePhoneMobile, link: "" },
-  { title: "computing", Icon: HiOutlineComputerDesktop, link: "" },
+  { title: "health & beauty", Icon: IoEyedropOutline, link: "" },
+  { title: "home & office", Icon: IoHomeOutline, link: "" },
   { title: "electronics", Icon: PiTelevision, link: "" },
   { title: "fashion", Icon: PiTShirt, link: "" },
+  { title: "supermarket", Icon: LuApple, link: "" },
+  { title: "computing", Icon: HiOutlineComputerDesktop, link: "" },
   { title: "baby products", Icon: PiBaby, link: "" },
   { title: "gaming", Icon: IoGameControllerOutline, link: "" },
-  { title: "sporting goods", Icon: CiDumbbell, link: "" },
-  { title: "automobile", Icon: PiCar, link: "" },
+  { title: "Musical Instruments", link: "" },
+  { title: "other categories", Icon: PiDotsThreeCircleThin, link: "" },
+  // { title: "sporting goods", Icon: CiDumbbell, link: "" },
+  // { title: "automobile", Icon: PiCar, link: "" },
 ];
 
 const myAccount = [
@@ -159,8 +162,8 @@ export function Sider() {
                 {ourCategories.map(({ title, Icon, link }) => (
                   <Link key={title} href={link}>
                     <li className="capitalize py-3 text-left px-4 hover:text-[#f68b1e] w-full flex space-x-3 items-center text-sm focus:bg-[#FEE2CC] active:bg-[#FEE2CC]">
-                      <Icon className="h-5 w-5" />
-                      <p>{title}</p>
+                      {Icon && <Icon className="h-5 w-5" />}
+                      <p className={Icon ? "" : "ml-8"}>{title}</p>
                     </li>
                   </Link>
                 ))}

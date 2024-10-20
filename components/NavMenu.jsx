@@ -20,18 +20,20 @@ import {
 } from "react-icons/hi2";
 
 const navItems = [
-  { title: "supermarket", Icon: LuApple, link: "" },
-  { title: "health & beauty", Icon: IoEyedropOutline, link: "" },
-  { title: "home & office", Icon: IoHomeOutline, link: "" },
   { title: "appliances", Icon: PiCookingPotLight, link: "" },
   { title: "phones & tablets", Icon: HiOutlineDevicePhoneMobile, link: "" },
-  { title: "computing", Icon: HiOutlineComputerDesktop, link: "" },
+  { title: "health & beauty", Icon: IoEyedropOutline, link: "" },
+  { title: "home & office", Icon: IoHomeOutline, link: "" },
   { title: "electronics", Icon: PiTelevision, link: "" },
   { title: "fashion", Icon: PiTShirt, link: "" },
+  { title: "supermarket", Icon: LuApple, link: "" },
+  { title: "computing", Icon: HiOutlineComputerDesktop, link: "" },
   { title: "baby products", Icon: PiBaby, link: "" },
   { title: "gaming", Icon: IoGameControllerOutline, link: "" },
-  { title: "sporting goods", Icon: CiDumbbell, link: "" },
+  { title: "Musical Instruments", link: "" },
   { title: "other categories", Icon: PiDotsThreeCircleThin, link: "" },
+  // { title: "sporting goods", Icon: CiDumbbell, link: "" },
+  // { title: "automobile", Icon: PiCar, link: "" },
 ];
 
 export default function NavMenu() {
@@ -41,7 +43,7 @@ export default function NavMenu() {
         {navItems.map(({ title, Icon, link }, index) => (
           <Link key={index} href={link}>
             <li className="capitalize text-left px-2 hover:text-[#f68b1e] w-full flex space-x-1.5 items-center text-xs">
-              <Icon className="w-5 h-5" />
+              {Icon && <Icon className="h-5 w-5" />}
               <p>{title}</p>
             </li>
           </Link>
