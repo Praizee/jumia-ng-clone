@@ -202,6 +202,8 @@ const FlashSales = () => {
                   width={230}
                   height={200}
                   alt={category.name}
+                  quality={90}
+                  priority
                 />
                 <div className="space-y-0.5 px-2">
                   <p

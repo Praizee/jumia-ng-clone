@@ -5,43 +5,43 @@ import Link from "next/link";
 const categories = [
   {
     image:
-      "https://ng.jumia.is/cms/0-1-initiatives/jumia-global/2024/August/New_arrival/6.gif",
-    name: "New Arrival",
+      "https://ng.jumia.is/cms/0-5-brand-festival/2024/Collection/homepage-thumbnails/renewed.jpg",
+    name: "Starting from ₦65,000",
     link: "",
   },
   {
     image:
-      "https://ng.jumia.is/cms/0-5-brand-festival/2024/Collection/homepage-thumbnails/clearance-sales.png",
-    name: "Clearance Sale",
+      "https://ng.jumia.is/cms/0-5-brand-festival/2024/Collection/homepage-thumbnails/special-offer.png",
+    name: "Special Offers",
     link: "",
   },
   {
     image:
-      "https://ng.jumia.is/cms/0-5-brand-festival/2024/Collection/homepage-thumbnails/appliances.png",
-    name: "Appliances Deals",
+      "https://ng.jumia.is/cms/0-5-brand-festival/2024/Collection/homepage-thumbnails/electronic.png",
+    name: "Electronic Deals",
     link: "",
   },
   {
     image:
-      "https://ng.jumia.is/cms/0-5-brand-festival/2024/Collection/homepage-thumbnails/phones.png",
-    name: "Phones & Tablets Deals",
+      "https://ng.jumia.is/cms/0-5-brand-festival/2024/Collection/homepage-thumbnails/beauty.png",
+    name: "Beauty Deals",
     link: "",
   },
   {
     image:
-      "https://ng.jumia.is/cms/0-5-brand-festival/2024/Collection/homepage-thumbnails/fashion.gif",
-    name: "Fashion Deals",
+      "https://ng.jumia.is/cms/0-5-brand-festival/2024/Collection/homepage-thumbnails/home-essentials.png",
+    name: "Home Essentials",
     link: "",
   },
   {
     image:
-      "https://ng.jumia.is/cms/0-1-initiatives/jforce/2024/Make-extra-cash-GIF0.gif",
-    name: "Make Extra Cash",
+      "https://ng.jumia.is/cms/0-1-initiatives/The_Essentials_For_The_Week/2024/300X300_.jpg",
+    name: "Essentials of the week",
     link: "",
   },
 ];
 
-const FeaturedCategories = () => {
+const FeaturedCategories2 = () => {
   return (
     <section className="xl:max-w-[1200px] max-w-[950px] mx-auto">
       <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2 bg-white rounded-md p-2">
@@ -69,4 +69,4 @@ const FeaturedCategories = () => {
   );
 };
 
-export default FeaturedCategories;
+export default FeaturedCategories2;

@@ -141,14 +141,14 @@ const items = [
   },
 ];
 
-const TopSellingItems = () => {
+const BeautyBargains = () => {
   return (
     <section className="xl:max-w-[1200px] max-w-[950px] mx-auto bg-white rounded-md">
-      <div className="flex gap-8 justify-between p-3">
-        <p className="text-lg font-semibold">Top selling items</p>
+      <div className="flex gap-8 justify-between p-3 bg-[#65B4D3] text-[#313133] rounded-t-md">
+        <p className="text-lg font-semibold">Beauty Bargains </p>
         <Link
           href=""
-          className="text-sm font-semibold uppercase text-jumia-primary flex gap-0.5 items-center"
+          className="text-sm font-semibold uppercase flex gap-0.5 items-center"
         >
           See All
           <BiChevronRight className="size-5" />
@@ -192,4 +192,4 @@ const TopSellingItems = () => {
   );
 };
 
-export default TopSellingItems;
+export default BeautyBargains;

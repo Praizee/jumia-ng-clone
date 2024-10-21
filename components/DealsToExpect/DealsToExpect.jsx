@@ -141,18 +141,11 @@ const items = [
   },
 ];
 
-const TopSellingItems = () => {
+const DealsToExpect = () => {
   return (
     <section className="xl:max-w-[1200px] max-w-[950px] mx-auto bg-white rounded-md">
-      <div className="flex gap-8 justify-between p-3">
-        <p className="text-lg font-semibold">Top selling items</p>
-        <Link
-          href=""
-          className="text-sm font-semibold uppercase text-jumia-primary flex gap-0.5 items-center"
-        >
-          See All
-          <BiChevronRight className="size-5" />
-        </Link>
+      <div className="p-3 bg-black text-white rounded-t-md text-center">
+        <p className="text-lg font-semibold">Black Friday Deals To Expect</p>
       </div>
       <div className="flex gap-x-2 overflow-x-scroll p-2">
         {items.map((category, index) => (
@@ -192,4 +185,4 @@ const TopSellingItems = () => {
   );
 };
 
-export default TopSellingItems;
+export default DealsToExpect;
