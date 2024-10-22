@@ -157,7 +157,7 @@ const FashionForwardDeals = () => {
       <div className="flex gap-x-2 overflow-x-scroll p-2">
         {items.map((category, index) => (
           <div className="relative" key={index}>
-            <div className="max-w-[200px] w-full bg-white pb-2 rounded-b-md hover:scale-[102%] hover:shadow-lg">
+            <div className="max-w-[200px] w-full bg-white pb-2 rounded-b-md hover:scale-[101%] hover:shadow-md">
               <Link href={category.link} className="flex flex-col gap-2">
                 <Image
                   src={category.image}

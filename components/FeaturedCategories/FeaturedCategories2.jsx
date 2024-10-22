@@ -48,7 +48,7 @@ const FeaturedCategories2 = () => {
         {categories.map((category, index) => (
           <div
             key={index}
-            className="bg-white pb-2 rounded-b-md hover:scale-[102%] hover:shadow-lg"
+            className="bg-white pb-2 rounded-b-md hover:scale-[101%] hover:shadow-md"
           >
             <Link href={category.link} className="space-y-2">
               <Image
