@@ -1,4 +1,5 @@
 "use client";
+
 import Link from "next/link";
 import { LuApple } from "react-icons/lu";
 import { CiDumbbell } from "react-icons/ci";

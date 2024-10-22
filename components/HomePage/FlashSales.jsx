@@ -4,7 +4,7 @@ import Link from "next/link";
 import { BiChevronRight } from "react-icons/bi";
 import { PiLightningLight } from "react-icons/pi";
 import { IoPricetags } from "react-icons/io5";
-import Countdown from "../CountDown/CountDown";
+import Countdown from "./CountDown";
 
 const items = [
   {

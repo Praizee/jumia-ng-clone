@@ -1,11 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
-import Header from "@/components/Header/Header";
-import Navbar from "@/components/Navbar/Navbar";
-import Footer from "@/components/Footer/Footer";
-import Newsletter from "@/components/Newsletter/Newsletter";
-import CallToOrder from "@/components/CallToOrder/CallToOrder";
-import ScrollButton from "@/components/ScrollButton/ScrollButton";
+import ScrollButton from "@/components/common/ScrollButton";
 
 //👇 Configure  local font object
 const SegoeUI = localFont({ src: "../fonts/Segoe UI.ttf" });
@@ -56,13 +51,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${SegoeUI.className} scroll-smooth`}>
-        <Header />
-        <Navbar />
-        <CallToOrder />
         {children}
-        <Newsletter />
         <ScrollButton />
-        <Footer />
       </body>
     </html>
   );

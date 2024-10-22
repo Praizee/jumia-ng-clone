@@ -1,6 +1,5 @@
-import React from "react";
-import NavMenu from "../NavMenu";
-import SlideShow from "../SlideShow/SlideShow";
+import NavMenu from "./NavMenu";
+import SlideShow from "./SlideShow";
 import Image from "next/image";
 import Link from "next/link";
 

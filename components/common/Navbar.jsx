@@ -13,7 +13,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import { BsChatLeftDots } from "react-icons/bs";
 import { BsBox2 } from "react-icons/bs";
 import { FaRegHeart } from "react-icons/fa";
-import { Sider } from "../Sider/Sider";
+import { Sider } from "./Sider";
 
 const Navbar = () => {
   return (
@@ -63,7 +63,7 @@ const Navbar = () => {
             label={
               <div className="flex gap-2 text-base items-center">
                 {" "}
-                <FaRegUser className="md:size-6 size-5 size-5" />
+                <FaRegUser className="size-5 md:size-6" />
                 <p className="hidden md:block">Account</p>
               </div>
             }
