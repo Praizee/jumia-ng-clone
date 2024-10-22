@@ -143,7 +143,7 @@ const items = [
 
 const BinatoneWeek2 = () => {
   return (
-    <section className="xl:max-w-[1200px] max-w-[950px] mx-auto bg-white rounded-md">
+    <section className="xl:max-w-[1200px] max-w-[950px] mx-auto bg-white shadow-sm rounded-md">
       <div className="flex gap-8 justify-between p-3 bg-[#AADEF1] text-[#313133] rounded-t-md">
         <p className="text-lg font-semibold">Binatone Week</p>
         <Link

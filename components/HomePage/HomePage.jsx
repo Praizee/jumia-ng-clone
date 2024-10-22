@@ -21,6 +21,15 @@ import OfficialStores from "../OfficialStores/OfficialStores";
 import NiveaOfficialStore from "../OfficialStores/NiveaOfficialStore";
 import BeautyBargain from "../BeautyBargain/BeautyBargain";
 import BeautyBargains from "../BeautyBargain/BeautyBargains";
+import Appliances from "../Appliances/Appliances";
+import AppliancesDeals from "../Appliances/AppliancesDeals";
+import PhoneDeals from "../PhoneTabletDeals/PhoneDeals";
+import PhoneTabletDeals from "../PhoneTabletDeals/PhoneTabletDeals";
+import FashionForwardDeals from "../FashionForward/FashionForwardDeals";
+import FashionForward from "../FashionForward/FashionForward";
+import TopSearched from "../Other/TopSearched";
+import Handpicked from "../Other/Handpicked";
+import ShoppingDestination from "../ShoppingDestination/ShoppingDestination";
 
 const HomePage = () => {
   return (
@@ -47,8 +56,16 @@ const HomePage = () => {
         <NiveaOfficialStore />
         <BeautyBargain />
         <BeautyBargains />
+        <Appliances />
+        <AppliancesDeals />
+        <PhoneTabletDeals />
+        <PhoneDeals />
+        <FashionForward />
+        <FashionForwardDeals />
+        <TopSearched />
+        <Handpicked />
 
-        <div>Home Page</div>
+        <ShoppingDestination />
       </div>
     </section>
   );

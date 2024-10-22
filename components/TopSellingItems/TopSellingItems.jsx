@@ -143,7 +143,7 @@ const items = [
 
 const TopSellingItems = () => {
   return (
-    <section className="xl:max-w-[1200px] max-w-[950px] mx-auto bg-white rounded-md">
+    <section className="xl:max-w-[1200px] max-w-[950px] mx-auto bg-white shadow-sm rounded-md">
       <div className="flex gap-8 justify-between p-3">
         <p className="text-lg font-semibold">Top selling items</p>
         <Link

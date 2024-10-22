@@ -47,7 +47,7 @@ const BinatoneWeek = () => {
       <div className="p-3 bg-[#AADEF1] text-[#313133] rounded-t-md text-center">
         <p className="text-lg font-semibold">Binatone Week</p>
       </div>
-      <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2 bg-white rounded-md p-2">
+      <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2 bg-white rounded-md shadow-sm p-2">
         {categories.map((category, index) => (
           <div key={index} className="hover:scale-[102%]">
             <Link href={category.link} className="space-y-2">

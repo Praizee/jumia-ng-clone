@@ -47,7 +47,7 @@ const EarlyShoppersDeals = () => {
       <div className="p-3 bg-black text-white rounded-t-md text-center">
         <p className="text-lg font-semibold">Early Shoppers Deals</p>
       </div>
-      <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2 bg-white rounded-md p-2">
+      <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2 bg-white rounded-md shadow-sm p-2">
         {categories.map((category, index) => (
           <div
             key={index}

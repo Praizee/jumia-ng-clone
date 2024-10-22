@@ -141,16 +141,23 @@ const items = [
   },
 ];
 
-const SponsoredProducts = () => {
+const Handpicked = () => {
   return (
     <section className="xl:max-w-[1200px] max-w-[950px] mx-auto bg-white shadow-sm rounded-md">
-      <div className="p-3">
-        <p className="text-lg font-semibold">Sponsored products</p>
+      <div className="flex gap-8 justify-between p-3 bg-[#AADEF1] text-[#313133] rounded-t-md">
+        <p className="text-lg font-semibold">Handpicked for you</p>
+        <Link
+          href=""
+          className="text-sm font-semibold uppercase flex gap-0.5 items-center"
+        >
+          See All
+          <BiChevronRight className="size-5" />
+        </Link>
       </div>
       <div className="flex gap-x-2 overflow-x-scroll p-2">
         {items.map((category, index) => (
           <div className="relative" key={index}>
-            <div className="max-w-[200px] w-full bg-white pb-2 rounded-b-md hover:scale-[102%] hover:shadow-lg">
+            <div className="max-w-[200px] w-full bg-white pb-2 rounded-b-md hover:scale-[101%] hover:shadow-md">
               <Link href={category.link} className="flex flex-col gap-2">
                 <Image
                   src={category.image}
@@ -185,4 +192,4 @@ const SponsoredProducts = () => {
   );
 };
 
-export default SponsoredProducts;
+export default Handpicked;

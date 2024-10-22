@@ -19,7 +19,7 @@ const items = [
 
 const Banner3 = () => {
   return (
-    <section className="xl:max-w-[1200px] max-w-[950px] mx-auto bg-white rounded-md">
+    <section className="xl:max-w-[1200px] max-w-[950px] mx-auto bg-white shadow-sm rounded-md">
       <div className="flex gap-2 justify-between p-2">
         {items.map((category, index) => (
           <div

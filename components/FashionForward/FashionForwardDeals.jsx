@@ -141,11 +141,18 @@ const items = [
   },
 ];
 
-const SponsoredProducts = () => {
+const FashionForwardDeals = () => {
   return (
     <section className="xl:max-w-[1200px] max-w-[950px] mx-auto bg-white shadow-sm rounded-md">
-      <div className="p-3">
-        <p className="text-lg font-semibold">Sponsored products</p>
+      <div className="flex gap-8 justify-between p-3 bg-[#65B4D3] text-[#313133] rounded-t-md">
+        <p className="text-lg font-semibold">Fashion Forward Deals</p>
+        <Link
+          href=""
+          className="text-sm font-semibold uppercase flex gap-0.5 items-center"
+        >
+          See All
+          <BiChevronRight className="size-5" />
+        </Link>
       </div>
       <div className="flex gap-x-2 overflow-x-scroll p-2">
         {items.map((category, index) => (
@@ -185,4 +192,4 @@ const SponsoredProducts = () => {
   );
 };
 
-export default SponsoredProducts;
+export default FashionForwardDeals;
