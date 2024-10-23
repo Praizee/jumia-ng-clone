@@ -5,6 +5,12 @@ import Link from "next/link";
 const categories = [
   {
     image:
+      "https://ng.jumia.is/cms/0-0-black-friday/2024/Thumbnails/F_THUMBNAILS_BF_300x300.gif",
+    name: "Up to 80% Off",
+    link: "",
+  },
+  {
+    image:
       "https://ng.jumia.is/cms/0-1-initiatives/jumia-global/2024/August/New_arrival/6.gif",
     name: "New Arrival",
     link: "",
@@ -25,12 +31,6 @@ const categories = [
     image:
       "https://ng.jumia.is/cms/0-5-brand-festival/2024/Collection/homepage-thumbnails/phones.png",
     name: "Phones & Tablets Deals",
-    link: "",
-  },
-  {
-    image:
-      "https://ng.jumia.is/cms/0-5-brand-festival/2024/Collection/homepage-thumbnails/fashion.gif",
-    name: "Fashion Deals",
     link: "",
   },
   {

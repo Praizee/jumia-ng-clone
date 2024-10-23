@@ -5,8 +5,8 @@ import Link from "next/link";
 const categories = [
   {
     image:
-      "https://ng.jumia.is/cms/0-5-brand-festival/2024/Collection/homepage-thumbnails/renewed.jpg",
-    name: "Starting from ₦65,000",
+      "https://ng.jumia.is/cms/0-5-brand-festival/2024/Collection/homepage-thumbnails/fashion.gif",
+    name: "Fashion Deals",
     link: "",
   },
   {
