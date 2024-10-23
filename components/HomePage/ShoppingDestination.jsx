@@ -4,10 +4,10 @@ import React from "react";
 const ShoppingDestination = () => {
   return (
     <div className="bg-white rounded-md shadow-sm p-3 flex flex-col gap-3 md:gap-4 text-xs">
-      <h2 className="font-semibold text-lg">
+      <h2 className="font-semibold text-base md:text-lg">
         Jumia Nigeria - Nigeria&apos;s No. 1 Shopping Destination
       </h2>
-      <h2 className="font-semibold text-lg">
+      <h2 className="font-semibold text-base md:text-lg">
         Shop for Everything You Need on Jumia Nigeria
       </h2>
       <p>
@@ -288,7 +288,7 @@ const ShoppingDestination = () => {
         consoles especially if you love gaming during your leisure time.
       </p>
 
-      <h2 className="font-semibold text-lg">
+      <h2 className="font-semibold text-base md:text-lg">
         Enjoy Top Deals and Discounts when Shopping on Jumia Nigeria Online
         Store
       </h2>
@@ -326,7 +326,7 @@ const ShoppingDestination = () => {
         </Link>
         , and follow us on all our social media accounts.
       </p>
-      <h2 className="font-semibold text-lg">
+      <h2 className="font-semibold text-base md:text-lg">
         Experience Fast Delivery and Online Shopping Convenience
       </h2>
       <p>
@@ -343,7 +343,7 @@ const ShoppingDestination = () => {
         catalog. This means that you can order various items from outside the
         country and get them delivered to your doorstep without hassles.
       </p>
-      <h2 className="font-semibold text-lg">
+      <h2 className="font-semibold text-base md:text-lg">
         Frequently Asked Questions (FAQs)
       </h2>
       <h3 className="font-semibold text-sm">
