@@ -65,7 +65,7 @@ const Newsletter = () => {
                   <input
                     type="checkbox"
                     id="terms_and_conditions"
-                    class="text-jumia-primary bg-gray-100 border-none rounded focus:ring-jumia-primary focus:ring-1"
+                    className="text-jumia-primary bg-gray-100 border-none rounded focus:ring-jumia-primary focus:ring-0"
                   />
                 </span>
                 <label htmlFor="terms_and_conditions">
