@@ -126,7 +126,7 @@ export function Sider() {
             {/* account */}
             <div className="pb-3 pt-1 border-t border-gray-400">
               <Link
-                href=""
+                href="/auth"
                 className="flex items-center justify-between px-4 py-3 focus:bg-[#FEE2CC] active:bg-[#FEE2CC]"
               >
                 <p className="uppercase text-sm text-gray-700">

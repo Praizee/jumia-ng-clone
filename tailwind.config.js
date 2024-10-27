@@ -18,6 +18,7 @@ module.exports = {
         },
         text: {
           DEFAULT: "#4A4A4A",
+          warning: "#B00020",
         },
       },
     },

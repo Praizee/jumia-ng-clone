@@ -76,12 +76,12 @@ const Navbar = () => {
             className=""
           >
             <Dropdown.Item>
-              <button
-                type="submit"
+              <Link
+                href="/auth"
                 className="uppercase bg-jumia-primary w-full text-white rounded-[5px] px-4 py-2 font-semibold shadow-lg"
               >
                 Sign In
-              </button>
+              </Link>
             </Dropdown.Item>
             <Dropdown.Divider />
             <Dropdown.Item className="flex gap-4 hover:font-semibold">
@@ -153,7 +153,7 @@ const Navbar = () => {
             <Dropdown.Divider />
             <Dropdown.Item>
               <button
-                type="submit"
+                type="button"
                 className="uppercase flex gap-2 items-center bg-jumia-primary w-full text-white rounded-[5px] px-4 py-2 font-semibold shadow-lg"
               >
                 <BsChatLeftDots className="size-5 my-auto" />
