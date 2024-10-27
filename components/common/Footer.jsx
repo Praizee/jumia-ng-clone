@@ -6,7 +6,6 @@ import { ImInstagram } from "react-icons/im";
 import { RiVisaLine } from "react-icons/ri";
 import { GiReceiveMoney } from "react-icons/gi";
 import { SiMastercard } from "react-icons/si";
-import Image from "next/image";
 import JumiaPay from "@/assets/svg/JumiaPay";
 
 const Footer = () => {

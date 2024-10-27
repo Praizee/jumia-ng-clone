@@ -13,7 +13,7 @@ const Hero = () => {
         <SlideShow />
 
         <div className="hidden xl:flex flex-col gap-4">
-          <div className="bg-white flex-1 flex flex-col justify-between gap-2 rounded-md p-[16px]">
+          <div className="bg-white flex-1 flex flex-col justify-between gap-2 rounded-md p-4">
             <Link href="" className="flex gap-2 items-center ">
               <Image
                 className=""
