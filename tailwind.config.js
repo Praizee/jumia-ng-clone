@@ -16,6 +16,9 @@ module.exports = {
         primary: {
           DEFAULT: "#F68B1E",
         },
+        text: {
+          DEFAULT: "#4A4A4A",
+        },
       },
     },
     extend: {

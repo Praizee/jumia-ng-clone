@@ -35,6 +35,12 @@ const nextConfig = {
         port: "",
         pathname: "/unsafe/**",
       },
+      {
+        protocol: "https",
+        hostname: "my.jumia.com.ng",
+        port: "",
+        pathname: "/pictures/**",
+      },
     ],
   },
 };
