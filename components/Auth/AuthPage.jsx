@@ -44,7 +44,7 @@ const AuthPage = () => {
         <form className="w-full flex flex-col gap-8 md:px-4">
           <label
             htmlFor="email_or_mobile_number"
-            className="relative block rounded-md border border-gray-400 hover:border-black shadow-sm focus-within:border-jumia-primary focus-within:ring-1 focus-within:ring-jumia-primary"
+            className="relative block rounded-md border border-gray-400 shadow-sm focus-within:border-jumia-primary focus-within:ring-1 focus-within:ring-jumia-primary"
           >
             <input
               type="text"
